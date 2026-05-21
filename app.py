@@ -10,7 +10,7 @@ def load_assets():
     return model, scaler
 try:
     model, scaler = load_assets()
-    st.title("Healthcare Disease Risk predictor")
+    st.title("HEALTHCARE DISEASE RISK PREDICTOR")
     st.write("Input patient metrics below to evaluate clinical outcomes instantly.")
     st.sidebar.header("Patient Demographics & Vitals")
     age = st.sidebar.slider("Age",1, 100, 45)
